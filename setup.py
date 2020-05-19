@@ -13,27 +13,27 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 dependencies = []
 setup(
-    name=r'git create',
-    version='0.0.1',
-    url='https://github.com/1hef001/createProject',
+    name=r'git_create',
+    version='0.1',
+    url='https://github.com/1hef001/git-create',
     long_description_content_type='text/markdown',
     license='MIT',
     author='S Ashwin',
     author_email='ashwins1211@gmail.com',
     description='create repo w/o hassle, both locally and in github. Let the module create it for you',
     long_description=long_description,
-    packages=find_packages(),
+    packages=['git_create'],
     keywords=['git', 'github', 'create', 'project', 'git create', 'create project'],
-    download_url='https://github.com/1hef001/createProject/archive/v0.0.1.tar.gz',
+    download_url='https://github.com/1hef001/git-create/archive/v0.1.tar.gz',
     # package_dir={'': os.getcwd()},
     include_package_data=True,
     zip_safe=False,
     platforms='any',
-    scripts=[r'./git create/main.py', r'./git create/helper.py', r'./git create/cred.py'],
+    scripts=[r'./git_create/main.py', r'./git_create/helper.py', r'./git_create/cred.py'],
     install_requires=dependencies,
     entry_points={
         'console_scripts': [
-            r'git create = git create.main:main',
+            'git-create = git_create.main:main',
         ]
     },
     
