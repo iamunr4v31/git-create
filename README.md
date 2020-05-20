@@ -18,7 +18,7 @@ Update your github credentials in cred.py
 
 **Installing createProject**
 
-Install using the given command after cloning, make sure to update the cred.py in the createProject folder before installing
+Install using the given command after cloning, make sure to update the cred.py in the git_create folder before installing
 
 ```
 python setup.py install
@@ -27,7 +27,7 @@ python setup.py install
 
 **Help Details:**
 ```
-usage: git create [-h] -n NAME [-p [PRIVATE]] [-hi [HAS_ISSUES]] [-d [DESCRIPTION]]
+usage: git-create [-h] -n NAME [-p [PRIVATE]] [-hi [HAS_ISSUES]] [-d [DESCRIPTION]]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -44,5 +44,5 @@ required named arguments:
 
 **Example :**
 ```
-git create -n test_repo -p True -hi False -d "This is a sample description"
+git-create -n test_repo -p True -hi False -d "This is a sample description"
 ```
