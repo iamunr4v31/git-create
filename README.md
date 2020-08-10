@@ -14,8 +14,7 @@ Update your github credentials in cred.py
     1. Python
         1.1 PyGithub
 
-## Create folder as said in createRepo or update path of the same to chromedriver
-
+## Create folder as said in createRepo
 **Installing createProject**
 
 Install using the given command after cloning, make sure to update the cred.py in the git_create folder before installing
